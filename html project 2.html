@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Form-Project 2</title>
+    <style>
+        .logo {
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+        
+        form {
+            width: 700px;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid lightgray;
+        }
+        
+        .register {
+            padding-top: 40px;
+            padding-bottom: 32px;
+        }
+        
+        .input {
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid lightgray;
+            width: 100%;
+        }
+        
+        #input-wrapper {
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+        
+        #submit {
+            background-color: green;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            margin-bottom: 30px;
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: lightgrey; margin: 0;">
+    <form style="text-align: center;">
+
+        <h1 class="register">Register</h1>
+
+
+        <div style="background-color:whitesmoke; padding: 24px;">
+            <img class="logo" src="https://assets.stickpng.com/images/5a951939c4ffc33e8c148af2.png" alt="google logo">
+            <img class="logo" src="https://cdn4.iconfinder.com/data/icons/social-icon-4/842/facebook-512.png" alt="facebook logo" style="width: 70px;">
+
+            <img class="logo" src="https://cdn.iconscout.com/icon/free/png-512/github-153-675523.png" alt="Github logo">
+            <img class="logo" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" alt="LinkedIn logo">
+        </div>
+        <div id="input-wrapper">
+            <input class="input" type="text" name="username" placeholder="Username"><br>
+            <input class="input" type="email" name="email" placeholder="Email"><br>
+            <input class="input" type="password" name="password" placeholder="Password"><br>
+            <input class="input" type="password" name="password" placeholder="Confirm Password"><br>
+        </div>
+        <div>
+            <input id="submit" type="submit" value="Register">
+        </div>
+    </form>
+</body>
+
+</html>
